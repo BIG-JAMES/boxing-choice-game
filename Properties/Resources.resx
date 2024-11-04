@@ -163,4 +163,7 @@
   <data name="Epic_Cinematic_Action_Trailer_Background_Music_No_Copyright_Intense_Teaser_Bgm___ezmp3_cc__" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Epic Cinematic Action Trailer Background Music No Copyright Intense Teaser Bgm [ ezmp3.cc ].wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="punch_kick_46882" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\punch-kick-46882.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

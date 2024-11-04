@@ -20,6 +20,8 @@ namespace boxing_choice_game
         public Form1()
         {
             InitializeComponent();
+
+            DisplayPage();
         }
 
 
@@ -192,6 +194,8 @@ namespace boxing_choice_game
                     yes.Text = "uppercut";
                     no.Text = "right hook ";
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.Epic_Cinematic_Action_Trailer_Background_Music_No_Copyright_Intense_Teaser_Bgm___ezmp3_cc__);
+                    soundPlayer.Play();
                     break;
 
                 case 2:
@@ -200,10 +204,6 @@ namespace boxing_choice_game
                     QandA.Text = "should you kick him while he down?";
                     yes.Text = "yes";
                     no.Text = "no";
-
-
-                    soundPlayer = new SoundPlayer(Properties.Resources.Epic_Cinematic_Action_Trailer_Background_Music_No_Copyright_Intense_Teaser_Bgm___ezmp3_cc__);
-                    soundPlayer.Play();
                     break;
 
                 case 3:
@@ -224,8 +224,11 @@ namespace boxing_choice_game
 
                 case 5:
 
-                    yes.Enabled = false;
-                    no.Enabled = false;
+                    yes.Visible = false;
+                    no.Visible = false;
+
+                    soundPlayer = new SoundPlayer(Properties.Resources.punch_kick_46882);
+                    soundPlayer.Play();
 
                     pagetxt.Text = "you wait for him to get up  the count starts";
                     picture.Image = Properties.Resources.down;
@@ -251,12 +254,15 @@ namespace boxing_choice_game
                     Refresh();
                     Thread.Sleep(700);
 
+                    soundPlayer = new SoundPlayer(Properties.Resources.Epic_Cinematic_Action_Trailer_Background_Music_No_Copyright_Intense_Teaser_Bgm___ezmp3_cc__);
+                    soundPlayer.Play();
+
                     pagetxt.Text = "5!";
                     Refresh();
                     Thread.Sleep(750);
 
-                    yes.Enabled = true;
-                    no.Enabled = true;
+                    yes.Visible = true;
+                    no.Visible = true;
 
                     pagetxt.Text = "he gets back up";
                     picture.Image = Properties.Resources.mikey;

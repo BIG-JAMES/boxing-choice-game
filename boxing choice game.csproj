@@ -125,5 +125,11 @@
   <ItemGroup>
     <None Include="Resources\Epic Cinematic Action Trailer Background Music No Copyright Intense Teaser Bgm [ ezmp3.cc ].wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\punch-kick-46882.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\punch-kick-46882.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
