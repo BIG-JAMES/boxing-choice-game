@@ -110,7 +110,7 @@
             this.Controls.Add(this.QandA);
             this.Controls.Add(this.pagetxt);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "asdf";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picture)).EndInit();
             this.ResumeLayout(false);
